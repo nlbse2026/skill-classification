@@ -42,7 +42,7 @@ Participants submit a single multi‑label classifier. Rankings proceed in two s
 
 ## Citing Relevant Work
 
-When using the dataset or referring to the competition, please cite:
+Please cite if participating in the skill competition:
 
 ```tex
 @inproceedings{carter2025skillscope,
@@ -57,8 +57,6 @@ When using the dataset or referring to the competition, please cite:
     keywords     = {Radio frequency;Training;Java;Large language models;Semantics;Retrieval augmented generation;Machine learning;Open source software;Software engineering;Software development management;software engineering;skill categorization;open source software (OSS);machine learning;large language models}
 }
 ```
-
-Additionally, if you build on the dataset's earlier API‑domain research, please cite the following works:
 
 ```tex
 @article{santos2023tag,
