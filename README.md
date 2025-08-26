@@ -23,6 +23,8 @@ The code comment classification competition is organized by: Fabio Santos (fabio
 
 ## Submission Acceptance & Competition
 
+Submit the paper by the deadline using our submission form. All submissions must conform to the (ICSE'26 formatting and submission instructions) and do not need to be double-blinded.
+
 Submissions will first be filtered to ensure they do not lower any of the three core metrics (precision, recall, micro‑F1) compared with the baseline. Among qualifying submissions, ranking is determined by the largest positive improvement in micro‑F1. Ties will be broken by (1) precision, then (2) runtime.
 
 Submissions will be judged on:
