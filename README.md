@@ -4,9 +4,12 @@
 
 The 2025 competition consists of building and assessing multi‑label classifiers that predict, for each issue, the set of domains and sub‑domains representing the skills required to solve it.
 
-- **Dataset**. We release a dataset mined from 7,245 merged pull requests across 11 popular Java repositories (57,206 source files; 59,644 methods; 13,097 classes) annotated with 217 skill labels composed by domain/sub‑domains ([Dataset](`skillscope_data.db` file: https://codingcando.com/fileShare/file?code=OSR0GA6WLV   
+This repository contains the data and results of the baseline classifiers for the [NLBSE’26 tool competition](https://nlbse2026.github.io/tools/) on skill classification.
 
-It has the updated views. There are two new ones in place of the old ones. The first is the domains by file and the second is the domains by issue. The issue one is the one used by the competition. I brought back the 1/0s as they are now the sums of the domains/subdomains of the files of the PR. The view is very slow, so the data is copied to the `nlbse_tool_competition_data_by_issue` table. So, instead of the previous view, this table will be used for the competition in/outs.)). The full corpus (inputs and gold‑labels) is shipped as an SQLite database (skillscope_data.db) for easy reproducibility.
+- **Dataset**. We release a dataset mined from 7,245 merged pull requests across 11 popular Java repositories (57,206 source files; 59,644 methods; 13,097 classes) annotated with 217 skill labels composed by domain/sub‑domains (`skillscope_data.db` file: https://codingcando.com/fileShare/file?code=OSR0GA6WLV). The file contains a SQLite database.    
+
+The dataset was updated from the original submitted with the reference: [SkillScope](#citing-related-work). It has the updated views. There are two new ones in place of the old ones. The first is the domains by file and the second is the domains by issue. The issue one is the one used by the competition. I brought back the 1/0s as they are now the sums of the domains/subdomains of the files of the PR. The view is very slow, so the data is copied to the `nlbse_tool_competition_data_by_issue` table. So, instead of the previous view, this table will be used for the competition in/outs. The full corpus (inputs and gold‑labels) is shipped as an SQLite database (skillscope_data.db) for easy reproducibility.
+
   - **Ready-made Table.** Inside the database you will find a table named nlbse_tool_competition_data_by_issue that joins each pull request’s textual and code‑context features with its canonical domain/sub‑domain labels per issue. There is also a view vw_nlbse_tool_competition_data_by_file that labels each filename/function associated with each issue.
   - The `nlbse_tool_competition_data_by_issue` table contains a column for each domain and subdomain with an integer count of the number of matching APIs found for that issue. A value greater than zero indicates that domain/subdomain is present in the issue.
   - The `vw_nlbse_tool_competition_data_by_file` is present for convenience purposes only and will not be used in evaluation of the model.
@@ -35,7 +38,7 @@ Submissions will be judged on:
 - Correct reporting of metrics.
 - Quality of documentation.
 
-Accepted papers will appear in the **NLBSE ’25 proceedings**.
+Accepted papers will appear in the **NLBSE ’26 proceedings**.
 
 ### Ranking Details
 
