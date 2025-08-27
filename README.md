@@ -22,7 +22,7 @@ We release a dataset mined from 7,245 merged pull requests across 11 popular Jav
 
 ## Organizers
 
-The code comment classification competition is organized by: Fabio Santos (fabio.deabreusantos), Benjamin Carter (BCarter44@my.gcu.edu), and Jacob Penney (jmp458@nau.edu)
+The code comment classification competition is organized by: Fabio Santos (fabio.deabreusantos@colostate.edu), Benjamin Carter (BCarter44@my.gcu.edu), and Jacob Penney (jmp458@nau.edu)
 
 ## Submission Acceptance & Competition
 
