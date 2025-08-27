@@ -8,7 +8,7 @@ This repository contains the data and results of the baseline classifiers for th
 
 ## Dataset
 
-We release a dataset mined from 7,245 merged pull requests across 11 popular Java repositories (57,206 source files; 59,644 methods; 13,097 classes) annotated with 217 skill labels composed by domain/sub‑domains You may find the dataset in a SQLite database, named `skillscope_data.db`, [here](https://codingcando.com/fileShare/file?code=OSR0GA6WLV). This dataset is an updated version of the one submitted in the original [SkillScope](#citing-relevant-work) paper.
+We release a dataset mined from 7,245 merged pull requests across 11 popular Java repositories (57,206 source files; 59,644 methods; 13,097 classes) annotated with 217 skill labels composed by domain/sub‑domains You may find the dataset in a SQLite database, named `skillscope_data.db`, [here](https://huggingface.co/datasets/NLBSE/SkillCompetition). This dataset is an updated version of the one submitted in the original [SkillScope](#citing-relevant-work) paper.
 
 - **Ready-made Table.** Inside the database you will find a table named nlbse_tool_competition_data_by_issue that joins each pull request’s textual and code‑context features with its canonical domain/sub‑domain labels per issue. There is also a view vw_nlbse_tool_competition_data_by_file that labels each filename/function associated with each issue.
 - The `nlbse_tool_competition_data_by_issue` table contains a column for each domain and subdomain with an integer count of the number of matching APIs found for that issue. A value greater than zero indicates that domain/subdomain is present in the issue.
