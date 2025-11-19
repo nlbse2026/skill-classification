@@ -27,7 +27,7 @@ Train, tune and evaluate your models on the provided splits and improve at least
 
 ## Organizers
 
-The code comment classification competition is organized by: Fabio Santos (fabio.deabreusantos@colostate.edu), Benjamin Carter (benjamincarter@ucsb.edu), and Jacob Penney (jmp458@nau.edu)
+The skill classification competition is organized by: Fabio Santos (fabio.deabreusantos@colostate.edu), Benjamin Carter (benjamincarter@ucsb.edu), and Jacob Penney (jmp458@nau.edu)
 
 ## Submission Acceptance & Competition
 
