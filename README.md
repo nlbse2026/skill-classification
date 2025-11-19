@@ -2,7 +2,7 @@
 
 ## Competition Overview
 
-The 2026 competition consists of building and assessing multi‑label classifiers that predict, for each issue, the set of domains and sub‑domains representing the skills required to solve it
+The 2026 competition consists of building and assessing multi‑label classifiers that predict, for each issue, the set of domains and sub‑domains representing the skills required to solve it.
 
 
 ## Dataset
@@ -39,7 +39,7 @@ Submissions will be judged on:
 - Correct reporting of metrics.
 - Quality of documentation.
 
-Accepted papers will appear in the NLBSE ’26 proceedings.
+Accepted papers will appear in the **NLBSE ’26 proceedings**.
 
 ### Ranking Details
 
