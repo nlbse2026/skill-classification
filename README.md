@@ -2,7 +2,7 @@
 
 ## Competition Overview
 
-The 2026 competition consists of building and assessing multi‑label classifiers that predict, for each issue, the set of domains and sub‑domains representing the skills required to solve it.
+The 2027 competition consists of building and assessing multi‑label classifiers that predict, for each issue, the set of domains and sub‑domains representing the skills required to solve it.
 
 
 ## Dataset
@@ -53,11 +53,11 @@ Participants submit a single multi‑label classifier. Rankings proceed in two s
 ### General Competition Citation:
 
 ```tex
-@inproceedings{nlbse2026,
+@inproceedings{nlbse2027,
   author = {Moritz Mock and Rani, Pooja and Santos, Fabio and Carter, Benjamin and Penney, Jacob},
   title={The NLBSE'26 Tool Competition},
   booktitle={Proceedings of The 5th International Workshop on Natural Language-based Software Engineering (NLBSE'26)},
-  year={2026}
+  year={2027}
 }
 ```
 
