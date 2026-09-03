@@ -54,9 +54,9 @@ Participants submit a single multi‑label classifier. Rankings proceed in two s
 
 ```tex
 @inproceedings{nlbse2027,
-  author = {Mock, Moritz and Borsani, Thomas and Russo, Barbara and Santos, Fabio and and Penney, Jacob},
-  title={The NLBSE'27 Tool Competition},
-  booktitle={Proceedings of The 5th International Workshop on Natural Language-based Software Engineering (NLBSE'27)},
+  author = {Mock, Moritz and Borsani, Thomas and Russo, Barbara and Santos, Fabio and and Penney, Jacob and Valenzuela{-}Toledo, Pablo and Kehrer, Timo and Panichella, Sebastiano },
+  title={The NLBSE'27 Tool Competition and Challenge},
+  booktitle={Proceedings of The 6th International Workshop on Natural Language-based Software Engineering (NLBSE'27)},
   year={2027}
 }
 ```
