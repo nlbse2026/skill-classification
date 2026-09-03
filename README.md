@@ -27,7 +27,7 @@ Train, tune and evaluate your models on the provided splits and improve at least
 
 ## Organizers
 
-The skill classification competition is organized by: Fabio Santos (fabio.deabreusantos@colostate.edu), Benjamin Carter (benjamincarter@ucsb.edu), and Jacob Penney (jmp458@nau.edu)
+The skill classification competition is organized by: Fabio Santos (fabio.deabreusantos@colostate.edu), and Jacob Penney (jmp458@nau.edu)
 
 ## Submission Acceptance & Competition
 
@@ -39,7 +39,7 @@ Submissions will be judged on:
 - Correct reporting of metrics.
 - Quality of documentation.
 
-Accepted papers will appear in the **NLBSE ’26 proceedings**.
+Accepted papers will appear in the **NLBSE ’27 proceedings**.
 
 ### Ranking Details
 
@@ -55,8 +55,8 @@ Participants submit a single multi‑label classifier. Rankings proceed in two s
 ```tex
 @inproceedings{nlbse2027,
   author = {Moritz Mock and Rani, Pooja and Santos, Fabio and Carter, Benjamin and Penney, Jacob},
-  title={The NLBSE'26 Tool Competition},
-  booktitle={Proceedings of The 5th International Workshop on Natural Language-based Software Engineering (NLBSE'26)},
+  title={The NLBSE'27 Tool Competition},
+  booktitle={Proceedings of The 5th International Workshop on Natural Language-based Software Engineering (NLBSE'27)},
   year={2027}
 }
 ```
